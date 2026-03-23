@@ -46,7 +46,7 @@
     "tap": "^16.0.1"
   },
   "dependencies": {
-    "@npmcli/arborist": "^6.0.0-pre.3"
+    "@npmcli/arborist": "^9.4.2"
   },
   "engines": {
     "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
