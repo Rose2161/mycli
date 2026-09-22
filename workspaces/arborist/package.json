@@ -26,7 +26,7 @@
     "npm-package-arg": "^9.0.0",
     "npm-pick-manifest": "^7.0.2",
     "npm-registry-fetch": "^13.0.0",
-    "npmlog": "^6.0.2",
+    "npmlog": "^7.0.1",
     "pacote": "^14.0.0-pre.3",
     "parse-conflict-json": "^2.0.1",
     "proc-log": "^2.0.0",
