@@ -58,15 +58,15 @@
     "tap": "^16.0.1"
   },
   "dependencies": {
-    "@npmcli/arborist": "^6.0.0-pre.3",
+    "@npmcli/arborist": "^10.0.0",
     "@npmcli/ci-detect": "^2.0.0",
     "@npmcli/fs": "^2.1.1",
-    "@npmcli/run-script": "^4.2.0",
+    "@npmcli/run-script": "^10.0.3",
     "chalk": "^4.1.0",
     "mkdirp-infer-owner": "^2.0.0",
     "npm-package-arg": "^9.0.1",
     "npmlog": "^6.0.2",
-    "pacote": "^14.0.0-pre.3",
+    "pacote": "^21.0.1",
     "proc-log": "^2.0.0",
     "read": "^1.0.7",
     "read-package-json-fast": "^5.0.0",
