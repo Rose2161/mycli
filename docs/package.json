@@ -27,7 +27,7 @@
     "jsdom": "^18.1.0",
     "marked-man": "^0.7.0",
     "tap": "^16.0.1",
-    "which": "^2.0.2",
+    "which": "^6.0.1",
     "yaml": "^1.10.0"
   },
   "author": "GitHub Inc.",
