@@ -149,7 +149,7 @@ const startServer = cb => {
       return
     }
 
-    const f = join(__dirname, 'content', join('/', req.url.replace(/@/, '').replace(/%2f/i, '/')))
+    const f = join(__dirname, 'content', join('/', req.url.replace(/@/g, '').replace(/%2f/ig, '/')))
     const isCorgi = req.headers.accept.includes('application/vnd.npm.install-v1+json')
     const file = f + (
       isCorgi && existsSync(`${f}.min.json`) ? '.min.json'
