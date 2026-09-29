@@ -3,7 +3,7 @@
 // run this command inside cleanSnapshot
 const normalizePath = (str) => str
   .replace(/\r\n/g, '\n') // normalize line endings (for ini)
-  .replace(/[A-z]:\\/g, '\\') // turn windows roots to posix ones
+  .replace(/[A-Za-z]:\\/g, '\\') // turn windows roots to posix ones
   .replace(/\\+/g, '/') // replace \ with /
 
 const cleanCwd = (path) => normalizePath(path)
